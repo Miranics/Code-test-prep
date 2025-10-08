@@ -2,7 +2,7 @@ def greater_than(numbers, target):
     result = []
     for num in numbers:
 
-        if num > single_num:
+        if num > target:
             result.append(num)
     return result
 
